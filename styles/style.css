@@ -1,0 +1,49 @@
+ul
+{
+    list-style-type: none;
+}
+
+.photo img {
+    width: auto; /*set the width or max-width*/
+    height: 300px; /*this makes sure to maintain the aspect ratio*/
+}
+
+.photo1 img {
+    width: 300px; /*set the width or max-width*/
+    height: auto; /*this makes sure to maintain the aspect ratio*/
+}
+
+.icons img {
+    width: 50px; /*set the width or max-width*/
+    height: auto; /*this makes sure to maintain the aspect ratio*/
+}
+
+
+.left {
+    float: left;
+    width: 300px;
+}
+
+.right {
+    float: right;
+}
+
+h2 {
+    text-align: center;
+    color: #7E8F7C;
+   }
+
+h1 {
+   text-align: center;
+   color: #C63D0F;
+  }
+
+.center {
+  text-align: center
+}
+
+
+body {
+  font-family: helvetica;
+  background-color: #FDF3E7;
+}
